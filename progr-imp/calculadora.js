@@ -22,8 +22,9 @@ console.log("Divisao entre 50 e 5: " + divisao(50, 5));
 console.log("Divisao entre 50 e 0: " + divisao(50, 0));
 
 function quadradoDoNumero(a) {
-  return a ^ 2;
+  return multiplicacao(a * a);
 }
+console.log("Quadrado: " + quadradoDoNumero(4));
 
 function mediaDeTresNumeros(a, b, c) {
   return divisao(adicao(adicao(a, b), c), 3);
