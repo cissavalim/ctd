@@ -64,7 +64,7 @@ console.log(maiuscula("cecilia"));
 function tipo(dado) {
   return typeof dado;
 }
-console.log(tipo());
+console.log(tipo(null));
 
 //funcao9
 
