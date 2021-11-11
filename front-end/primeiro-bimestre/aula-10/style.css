@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  margin: 10% auto;
+  width: 400px;
+  padding: 1em;
+  height: 500px;
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+select {
+  width: 100%;
+}
+
+.reset,
+.submit {
+  background-color: transparent;
+  border: 1px solid #000;
+  width: 100px;
+  margin: 0 10px;
+  cursor: pointer;
+}
