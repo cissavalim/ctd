@@ -1,0 +1,34 @@
+div:nth-child(1){
+    background-color: blue;
+    width: 100px;
+    border: 15px;
+
+}
+
+.main-div:hover{
+    background-color: blueviolet;
+}
+
+.main-div::first-letter{
+    color:yellow;
+    font-size: 50px;
+}
+
+.nome:focus{
+    background-color: tomato;
+}
+
+.checked:checked {
+    margin-left: 25px;
+    border: 1px solid blue;
+}
+
+.nome:enabled{
+    margin-left: 200px;
+}
+
+.disabled:disabled{
+    width: 100px;
+    height: 100px;
+}
+
