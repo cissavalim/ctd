@@ -39,6 +39,12 @@ li {
 
 li img {
   width: 100%;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+li img:hover {
+  transform: scale(1.05);
 }
 
 li p {
