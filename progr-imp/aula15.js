@@ -18,8 +18,6 @@ let banco = {
     for (let i = 0; i < this.clientes.length; i++) {
       if (this.clientes[i].titular == titular) {
         return this.clientes[i];
-      } else {
-        return "Não encontrado";
       }
     }
   },
