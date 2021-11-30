@@ -11,5 +11,3 @@ let FizzBuzz = (a, b) => {
     }
   }
 };
-
-FizzBuzz(2, 4);
