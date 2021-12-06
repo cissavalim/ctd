@@ -1,64 +1,54 @@
-let arquivos = [
+const arquivos = [
   {
-      "numero": "5486273622",
-      "tipo": "Conta Corrente",
-      "saldo": "27771",
-      "titular": "Abigael Natte"
+    sexo: "F",
+    nome: "Abigael Natte",
+    altura: 1.61,
   },
   {
-      "numero": "1183971869",
-      "tipo": "Conta Poupança",
-      "saldo": "8675",
-      "titular": "Ramon Connell"
+    sexo: "M",
+    nome: "Ramon Connell",
+    altura: 1.75,
   },
   {
-      "numero": "9582019689",
-      "tipo": "Conta Poupança",
-      "saldo": "27363",
-      "titular": "Jarret Lafuente"
+    sexo: "M",
+    nome: "Jarret Lafuente",
+    altura: 1.55,
   },
   {
-      "numero": "1761924656",
-      "tipo": "Conta Poupança",
-      "saldo": "32415",
-      "titular": "Ansel Ardley"
+    sexo: "F",
+    nome: "Ansel Ardley",
+    altura: 1.67,
   },
   {
-      "numero": "7401971607",
-      "tipo": "Conta Poupança",
-      "saldo": "18789",
-      "titular": "Jacki Shurmer"
+    sexo: "F",
+    nome: "Jacki Shurmer",
+    altura: 1.75,
   },
   {
-      "numero": "630841470",
-      "tipo": "Conta Corrente",
-      "saldo": "28776",
-      "titular": "Jobi Mawtus"
+    sexo: "M",
+    nome: "Jobi Mawtus",
+    altura: 1.88,
   },
   {
-      "numero": "4223508636",
-      "tipo": "Conta Corrente",
-      "saldo": "2177",
-      "titular": "Thomasin Latour"
+    sexo: "M",
+    nome: "Thomasin Latour",
+    altura: 1.67,
   },
   {
-      "numero": "185979521",
-      "tipo": "Conta Poupança",
-      "saldo": "25994",
-      "titular": "Lonnie Verheijden"
+    sexo: "F",
+    nome: "Lonnie Verheijden",
+    altura: 1.63,
   },
   {
-      "numero": "3151956165",
-      "tipo": "Conta Corrente",
-      "saldo": "7601",
-      "titular": "Alonso Wannan"
+    sexo: "M",
+    nome: "Alonso Wannan",
+    altura: 1.92,
   },
   {
-      "numero": "2138105881",
-      "tipo": "Conta Poupança",
-      "saldo": "33196",
-      "titular": "Bendite Huggett"
-  }
-]
+    sexo: "F",
+    nome: "Bendite Huggett",
+    altura: 1.8,
+  },
+];
 
 module.exports = arquivos;
