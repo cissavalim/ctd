@@ -48,7 +48,7 @@ function porcentagem(pessoas) {
       return item.nota == 2;
     }).length *
       100) /
-    15
+    pessoas.length
   );
 }
 
